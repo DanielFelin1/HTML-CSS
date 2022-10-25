@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo audio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Colocando audio no seu site</h1>
+    <p>Para hospedar áudio em nosso site iremos usar as tags &lt;audio&gt; e &lt;source&gt;. </p>
+    <p>Nosso código ficará assim:</p>
+    <img src="imagens/Captura3.PNG" alt="código html">
+    <p>Vamos analisar os principais atributos da tag &lt;audio&gt;</p>
+    <ul type="disc">
+        <li>O atributo <em>preload</em> indica se o audio será pré-carregado ou não <br>e aceita três valores:</li>
+            <ul type="circle">
+                <li><em>metadata</em> vai carregar apenas as informações sobre o arquivo <br>(tamanho, tempo, informações de direitos, etc).</li><br>
+                <li><em>none</em> não vai carregar absolutamente nada até que o usuário clique <br>no botão playou algum script inicie a reprodução.</li><br>
+                <li><em>auto</em> (padrão) vai carregar o arquivo de audio interio assim que a página <br>for carregada, mesmo que o usuário nunca aperte o play.</li>
+            </ul><br>
+            <li>O atributo <em>controls</em> vai apresentar o player na tela. <br>Caso não seja colocado na tag &lt;audio&gt;, o controle será transparente e o usuário <br> não poderá interagir com ele.</li><br>
+            <li>O atributo <em>loop</em> vai fazer com que o áudio seja repetido eternamente assim que chegar ao fim.</li>
+    </ul>
+    <h2>O resultado visual será esse:</h2>
+    <audio preload="metadata" controls loop>
+        <source src="audio/04 - San Tropez.mp3" type="audio/mpeg">
+    </audio>
+        <a href="audio/04 - San Tropez.mp3" download="04 - San Tropez.mp3" type="audio/mpeg">
+            <p>Link para download da música:</p>
+        </a>
+        <a href="index.html" target="_self" rel="prev">
+            <p>Retornar ao início</p>
+        </a>
+</body>
+</html>

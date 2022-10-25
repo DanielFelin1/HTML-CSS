@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(105, 103, 103);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Colocando Imagem Flexivel no seu site</h1>
+        <h2>Pink floyd</h2>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/pinkfloydP.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/pinkfloydM.png" type="image/png">
+            <img src="imagens/pinkfloyd.png" alt="Pinkfloyd">
+        </picture>
+    <h1>Colocando Player de música no seu site</h1>
+    <h2>Any Color You Like</h2>
+    <audio preload="metadata" controls loop>
+        <source src="musica/07. Any Colour You Like.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Colocando Video no Seu Site</h1>
+    <h2>Breathe - Pink Floyd</h2>
+    <h3>Esse vídeo está hospedado no youtube</h3>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/mrojrDCI02k" title="Pink Floyd - Breathe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Esse vídeo está hospedado no meu servidor</h3>
+    <video poster="imagens/paisagem650.jpg" width="500" controls>
+        <source src="video/Video.M4V.m4v" type="video/mp4">
+        <source src="video/Video.WEBM.webm" type="video/webm">
+        <source src="video/video.ogv.ogv" type="video/ogg">
+        <source src="video/video.mp4.mp4" type="video/mp4">
+    </video>
+</body>
+</html>

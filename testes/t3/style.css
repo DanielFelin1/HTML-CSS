@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: pokemon;
+    src: url('fonts/Pokemon\ Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+main{
+    background-size: 10px;
+    background-color: #FDE4BB;
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    border-radius: 7px;
+    padding: 14px;
+    box-shadow: #7a694e 2px 2px 2px;
+}
+
+h1{
+    font-family: pokemon, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em;
+    color: #7ca0d6;
+    text-shadow: #375075 2px 2px 2px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #8B8696;
+}
+
+.char{
+    margin: auto;
+    background-color:#fcba7c;
+    border-radius: 7px;
+    padding: 14px;
+    box-shadow: #b17b49 2px 2px 2px;
+    width: 300px;
+    height: 200;
+}
+
+.char:hover{
+    background-color: #ca8646;
+}
+
+.squirtle{
+    background-color: #63c7c2;
+    margin: auto;
+    border-radius: 7px;
+    padding: 14px;
+    box-shadow: #245c59 2px 2px 2px;
+    width: 300px;
+    height: 200;
+}
+
+.squirtle:hover{
+    background-color: #3c9c97;
+}
+
+.bulbassauro{
+    margin: auto;
+    background-color: #95CCA8;
+    border-radius: 7px;
+    padding: 14px;
+    box-shadow: #386949 2px 2px 2px;
+    width: 300px;
+    height: 200;
+}
+
+.bulbassauro:hover{
+    background-color: #579c6f;   
+}
+
+.positionlink{
+    font-family: pokemon;
+    text-align: right;
+}
+

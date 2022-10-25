@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(41, 43, 43);
+            color: whitesmoke;
+        }
+        a{
+            color: antiquewhite
+        }
+    </style>
+    <title>Inserindo vídeo</title>
+</head>
+<body>
+    <h1>Colocando vídeos no seu site</h1>
+    <p>Para inserir vídeo em nosso site podemos utilizar a tag &lt;video&gt;, caso o arquivo esteja hospedado <br>em nosso próprio servidor.
+    </p>
+    <p>O código ficará dessa forma:</p>
+    <img src="imagens/Captura4.PNG" alt="código em html">
+    <p>Vamos analisar os principais atributos da tag &lt;video&gt;:</p>
+    <ul type="disc">
+        <li><em>widht</em> vai indicar a largura que o video vai ter na tela.</li><br>
+        <li><em>poster</em> configura uma imagem que vai aparecer como uma capa, enquanto o visitante <br>não aperta o play para reproduzzir o video.</li><br>
+        <li><em>controls</em> vai configurar se os controles do vídeo vão aparecer na parte inferior da mídia. <br>Por padrão, os controles não aparecerão, mas basta colocar a palavra controls na tag video.</li><br>
+    </ul>
+    <p>Oa formatos suportados pelos navegadores são MPEG, WEBM e OGG, <br>mas os dois primeiros são os que possuem maior compatibilidade com os navegadores atualmente.</p>
+    <p>O resultado visual do nosso código para hospedar o vídeo será esse:</p>
+    <video width="500px" poster="imagens/thumb.PNG" controls>
+        <source src="video/Video.M4V.m4v" type="video/mp4">
+    </video>
+    <h2>Exportando videos para o seu site</h2>
+    <p>Alguns sites de reprodução de videos fornecem códigos em HTML para incorporá-los em seu site. exemplo:</p>
+    <img src="imagens/Captura5.PNG" alt="código em html">
+    <p>O resultado visual será esse:</p>
+    <iframe width="500" height="314" src="https://www.youtube.com/embed/UIsWHxozdDA?list=RDeBG7P-K-r1Y" title="Foo Fighters - Taylor Hawkins sings Times Like These - Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    <a href="index.html" target="_self" rel="prev">Retornar ao início</a>
+</body>
+</html>

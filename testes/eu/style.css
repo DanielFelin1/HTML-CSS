@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: #e7dec3;
+    box-shadow: 5px 5px 5px rgb(207, 165, 110);
+    width: 700px;
+    padding: 14px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #F6D296, #D4AA81, #EBB79C);
+    background-attachment: fixed;
+}
+
+p{
+    text-align: justify;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(177, 163, 101, 0.658);
+}
+
+.destaque{
+    text-decoration: none;
+    color: rgb(167, 57, 37);
+}
+
+.destaque:visited{
+    color: rgb(75, 17, 17);
+}
+
+.destaque:active{
+    color: brown;
+}
+
+.destaque:hover{
+    text-decoration: underline;
+}
+
+.destaque:hover::before{
+    content: '↸';  
+}

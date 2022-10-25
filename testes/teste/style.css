@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(rgb(24, 24, 112), rgb(67, 48, 177), rgb(121, 43, 173));
+    background-attachment: fixed;
+    height: 15cm;
+    text-align: center;
+
+}
+
+img{
+    height: auto;
+}

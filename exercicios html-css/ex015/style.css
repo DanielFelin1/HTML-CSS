@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(41, 43, 43);
+}
+
+p {
+    color: aliceblue;
+    text-align: justify;
+}
+
+ul {
+    color: bisque;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: antiquewhite;
+}
+
+a{
+    color: antiquewhite
+}

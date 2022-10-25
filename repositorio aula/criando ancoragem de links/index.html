@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancoragem</title>
+</head>
+<body>
+    <h1>Vamos criar um link</h1>
+    <h2>Hyperlinks:</h2>
+    <p>São um dos conceitos mais antigos na linguagem HTML. Eles permitem que você ligue um ponto a outro na World Wide Web. <br>Para criar um Hyperlink, devemos criar âncoras atravez da tag <strong>&lt;a&gt;</strong>. O principal atributo dessa tag é o <strong>href</strong>, que cria uma referencia hipertexto.</p><!--EXEMPLO: <a href="https://www.google.com"></a>-->
+    <a href="https://www.instagram.com/daniel.alexandrefelin/" target="_blank" rel="external">Acesse meu perfil no Instagram</a>
+    <h2>Usando hreflang:</h2>
+    <p>O hreflang permite indicar qual é o idioma principal do site par onde o link está desviando o fluxo de navegação. permite que o visitante possa optar pela tradução do idioma do site.</p>
+    <a href="https://www.w3schools.com/html/" target="_blank" rel="external" hreflang="en"> Site da W3Schools (em Ingles).</a><br>
+    <h2>Usando o atributo target</h2>
+    <p>Para poder controlar onde o site de destino vai abrir, podemos usar o atributo target, que suporta os segiontes valores:</p>
+    <p>_blank vai abrir o link em uma nova janela em branco. <br>_self vai abrir o link na janela ou frame atual (padrao). <br>_top vai desfazer todos os frames e abrir o destino no navegador completo. <br>_parent similar ao uso do _top em uma referencia a janela mae. <br> nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir.</nome-do-frame></p>
+    <a href="pagina 2.html" target="_self" rel="next"> 
+        Continuar navegando no site</a> <br> 
+    <h2>Esse link é seu ou dos outros?</h2>
+    <p>Existe um recurso bem interessante para links que é indicar qual é a natureza do destino usando o atributo <em>rel</em>. Esse atributo aceita varios valores, entre eles: <br></p>
+    <p><em>next</em> - Indica que o link é a proxima parte do documento atual <br><em>prev</em> - Indica que  o link é para a parte anterior do documento atual <br><em>author</em> - Indica que é um link para o site do autor do artigo atual.<br><em>external</em> - Indica que é um link para outro site que nao faz parte do site atual.<br> <em>nofollow</em> - indica que é um link para um site não endossado, como um link pago.
+    </p>
+    <h2>E para fazer Download?</h2>
+    <p>Basta fazer o link diretamente para o arquivo que deseja efetuar o download e adicionar o atributo <em>download</em> com o valor configurado para o nome do arquivo a ser baixado, e o atributo <em>type</em> para indicar ao navegador que tipo de arquivo esta sendo baixado. </p>
+    <h3>Fazer Download</h3>
+    <a href="livro/O Mundo Assombrado pelos Demônios - Carl Sagan.pdf" rel="external" download="O Mundo Assombrado pelos Demônios - Carl Sagan.pdf" type="application/pdf"> faça o download do pdf</a><br>
+    <a href="video/Por que a campanha do Lula não usa isso -.mp4" download="Por que a campanha do Lula não usa isso -.mp4" type="video/mp4"> faça o download do video</a><br>
+    <a href="arquivozip/VisualBoyAdvance-1.7.2.zip" download="VisualBoyAdvance-1.7.2.zip" type="application/zip">Download VBA</a><br>
+    <a href="musica/01 - Enter Sandman.mp3" download="01 - Enter Sandman.mp3" type="audio/aac">Download Musica</a>
+</body>
+</html>

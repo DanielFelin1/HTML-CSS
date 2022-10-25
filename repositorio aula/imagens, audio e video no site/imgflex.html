@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgba(40, 40, 41, 0.945);
+            color: whitesmoke;
+        }
+        a{
+            color: antiquewhite
+        }
+        
+    </style>
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagens flexíveis no seu site.</h1>
+    <p>Para gerar imagens de tamanhos diferentes no nosso site <br>iremos usar as tags &lt;picture&gt; e &lt;source&gt;</p>
+    <p>Nosso código ficará assim:</p>
+    <img src="imagens/Captura1.PNG" alt="código em html">
+    <p>Dentro da tag <strong>picture</strong> iremos colocar a tag <strong>source</strong> (quantas forem necessarios) <br> para adicionar mais tamanhos de imagens.</p>
+    <p>Veja:</p>
+    <img src="imagens/Captura2.PNG" alt="código em html">
+    <H2>A tag <strong>source</strong> possuí 3 atributos:</H2>
+    <ul type="disc">
+        <li><em>type</em> vai indicar o media type da imagem que usamos.</li>
+        <br>
+        <li><em>srcset</em> vai configurar o nome da imagem que será carregada <br>quando o tamanho indicado for atingido.</li>
+        <br>
+        <li><em>media</em> indica o tamanho maximo a ser considerado <br>para carregar a imagem indicada no atributo <em>srcset.</em></li>
+    </ul>
+    <p>O resultado visual será esse:</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/starkP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/starkM.png" type="image/png">
+        <img src="imagens/starkG.png" alt="lobo">
+    </picture><br>
+    <a href="index.html" target="_self" rel="prev">Retornar à pagina inicial.</a>
+</body>
+</html>

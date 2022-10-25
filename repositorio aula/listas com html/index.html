@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas com HTML</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>A HTML chama de <em>ordered lists</em> todas as listas em que a <strong>ordem do itens é de extrema importancia.</strong></p>
+    <p>Para criar uma ordered list usamos a tag &lt;ol&gt; para delimitar a lista, e &lt;li&gt; para identificar cada idem da lista. <br> Exemplo:</p>
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+    </ol>
+    <p>A tag &lt;ol&gt; possui um parametro <em>type</em> onde configuramos o tipo de marcador da lista. <br>Exemplo: </p>
+    <p>1 - Valor padrão. Listas enumeradas: 1, 2, 3, 4, 5... <br>A - Listas em ordem alfabetica com letras maiusculas: A, B, C, D, E... <br>a - Listas em ordem alfabetica minusculas: a, b, c, d, e... <br>I - Algarismos romanos: I, II, III, IV, V... <br>i - Algarismos romanos em minusculo: i, ii, iii, iv, v...</p>
+    <p>Podemos indicar o inicio da contagem usando o parametro <em>start.</em> <br> Exemplo:</p>
+    &lt;ol&gt; type="i" start = "5"&gt;&lt;/ol&gt;
+    <p>Nesse exemplo a lista será gerada apartir do item 5.</p>
+    <h2>Listas não Ordenadas </h2>
+    <p>Nas <em>unordered lists</em> a ordem dos intens não irá importar.
+    <p>Para criar uma unordered list, usaremos a tag &lt;ul&gt; para delimitar a lista e a tag &lt;li&gt; para criar os seus itens internos.<br> Exemplo:
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul></p>
+    <h2>Misturando as coisas</h2>
+    <p>Podemos também, criar listas mistas configurando listas dentro de outras listas. Exemplo:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol type="a">
+            <li>Item 2.1</li>
+            <li>Item 2.2</li>
+            <li>Item 2.3</li>
+        </ol>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <h2>Lista de definições</h2>
+    <p>É como se fosse um dicionário, temos os termos e suas definições.</p>
+    <p>Toda lista de definição esta dentro de uma tag &lt;dl&gt; &lt;/dl&gt; (definition list). <br> Cada termo é um &lt;dt&gt; (definition term). <br> Cada descrição é uma &lt;dd&gt; (definition description). <br>Exemplo:</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para criar o conteudo de sites.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a especificação de estilos em sites.</dd>
+        <dt>Jvascript</dt>
+        <dd>Linguagem de programação para criar interatividades em sites.</dd>
+    </dl>
+</body>
+</html>
