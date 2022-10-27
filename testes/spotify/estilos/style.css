@@ -9,7 +9,6 @@
 body.fundo{
     background-image: url('../imagens/musica.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
 }  
 
 header{
@@ -58,6 +57,50 @@ div#tamanho{
     text-align: left;
     margin-left: 100px;
     padding-top: 1px;
+}
+
+main{
+    text-align: center;
+}
+
+main>h1{
+    font-size: 7em;
+    margin-top: 320px;
+    color: rgb(240, 239, 239);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.623);
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.24)
+}
+main>p{
+    font-size: 1.2em;
+    margin-top: 60px;
+    color: rgb(240, 239, 239);
+}
+main>.borda{
+    margin-top: 70px;
+    margin-bottom: 200px;
+    border: 3px;
+    border-style: solid;
+    width: 250px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-color: #2DE26D;
+    background-color: #2DE26D;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #284428;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+main>.borda:hover{
+    background-color: #35fc7a;
+    border-color: #35fc7a;
+}
+main>.sombra{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
 }
 
 footer{
