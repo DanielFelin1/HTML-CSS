@@ -6,6 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body a{
+    text-decoration: none;
+}
 body.fundo{
     background-image: url('../imagens/musica.jpg');
     background-size: cover;
@@ -19,8 +22,8 @@ header{
     text-align: center;
 }
 header>h1{
-color: white;
-text-align: left;
+    color: white;
+    text-align: left;
 }
 
 nav{
@@ -116,4 +119,10 @@ footer>aside{
 }
 footer>aside>ul{
     line-height: 2em;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #2DE26D;
 }
