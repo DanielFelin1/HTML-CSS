@@ -25,13 +25,15 @@ text-align: left;
 
 nav{
     text-align: right;
-    padding-top: 25px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 nav>a{
     padding: 10px; 
     font-weight: bold; 
     color: white;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 nav>a:hover{
     color: rgb(100, 216, 100);
@@ -40,10 +42,13 @@ nav>a:hover{
 div>img{
     width: 170px;
     height: 55px;
-    padding-top: 20px;
+    padding-top: 0px;
+    margin-top: 20px;
 }
 
 .logotipo{
     text-align: left;
     margin-left: 100px;
+    width: 135;
+    height: 30;
 }
