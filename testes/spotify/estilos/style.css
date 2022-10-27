@@ -65,7 +65,7 @@ main{
 
 main>h1{
     font-size: 7em;
-    margin-top: 320px;
+    margin-top: 370px;
     color: rgb(240, 239, 239);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.623);
     -webkit-text-stroke: .5px;
@@ -105,4 +105,15 @@ main>.sombra{
 
 footer{
     background-color: black;
+}
+footer>aside{
+    color: white;
+    columns: 3;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 360px;
+}
+footer>aside>ul{
+    line-height: 2em;
 }
