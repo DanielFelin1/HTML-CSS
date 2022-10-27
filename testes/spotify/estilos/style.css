@@ -9,6 +9,7 @@
 body.fundo{
     background-image: url('../imagens/musica.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }  
 
 header{
@@ -27,7 +28,7 @@ nav{
     text-align: right;
     padding-top: 0px;
     padding-bottom: 8px;
-    margin-right: 162px;
+    margin-right: 68px;
     margin-top: -30px;
 }
 nav>a{
@@ -37,6 +38,10 @@ nav>a{
     text-decoration: none;
     margin-bottom: 20px;
 }
+nav>.perfil{
+    padding-left:50px;
+}
+
 nav>a:hover{
     color: rgb(100, 216, 100);
 }
@@ -53,4 +58,8 @@ div#tamanho{
     text-align: left;
     margin-left: 100px;
     padding-top: 1px;
+}
+
+footer{
+    background-color: black;
 }
