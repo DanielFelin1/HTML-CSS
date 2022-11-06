@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+div{
+    text-align: center;
+}
+
+.container{
+    height: 40vh;
+    width: 60vh;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#fundo1{
+    background-color: aliceblue;
+}
+#fundo2{
+    background-color: blue;
+}
+#fundo3{
+    background-color: blueviolet;
+}
+#fundo4{
+    background-color: yellow;
+}
