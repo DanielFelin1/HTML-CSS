@@ -156,6 +156,9 @@ aside a{
     color: #30B8F2;
     font-weight: bold;
 }
+aside a:hover{
+    text-decoration: underline;
+}
 
 .qatar{
     width: 80vw;
@@ -167,6 +170,7 @@ aside a{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset -2px 2px 17px black;
 }
 aside>article{
     padding-top: 120px;
@@ -182,14 +186,21 @@ aside>article>p{
     text-align: left;
     background-color: rgba(0, 0, 0, 0.336);
 }
-article>.fonteqatar{
+article> a >p.fonteqatar{
     font-family: 'qatar', Arial, Helvetica, sans-serif;
-    font-size: 1.7vw;
+    font-weight: lighter;
+    font-size: 1.3em;
     margin-top: 20px;
+    padding-left: 17px;
+}
+p.fonteqatar:hover{
+    text-decoration: underline;
 }
 
 footer{
-    background-color: black;
+    background-color: #396273;
     color: white;
     text-align: center;
+    padding: 10px;
+    margin-top: 50px;
 }
