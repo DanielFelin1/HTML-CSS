@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
+@font-face {
+    font-family: 'qatar';
+    src: url('fonts/aAwalRamadhan.otf') format('opentype');
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -128,9 +133,9 @@ section p{
 aside{
     padding-top: 50px;
     padding-bottom: 35px;
-    border-radius: 7px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 50px;
     background-image: url('imagens/natal.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,4 +155,41 @@ aside a{
     text-decoration: none;
     color: #30B8F2;
     font-weight: bold;
+}
+
+.qatar{
+    width: 80vw;
+    height: 60vh;
+    margin: auto;
+    padding-top: 50px;
+    background-image: url('imagens/qatar.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+aside>article{
+    padding-top: 120px;
+}
+aside>article>p{
+    font-family: 'qatar', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 4vw;
+    line-height: 1.8em;
+    margin-left: 15px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+article>.fonteqatar{
+    font-family: 'qatar', Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
