@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        td.green{
+            background-color: rgb(81, 219, 81);
+        }
+        td.red{
+            background-color: red;
+        }
+        td.yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+   <!--
+        Hierarquia de Tabela (Simples)
+
+        Table (tabela)
+            Table Row (linha de tabela)
+                Table Header (Cabeçalho de tabela)
+                Tbale Data (Dados de tabela)
+   --> 
+
+   <!--
+        Pra criar várias tr e td de uma vez, é só usar o  * .
+
+        Exemplo: 
+        
+        <table>
+
+        tr*4>td*3
+
+        </table>
+   -->
+
+   <h1>Minha primeira tabela</h1>
+
+   <table>
+        <tr>
+            <td class="green">A1</td>
+            <td class="yellow">B1</td>
+            <td class="red">C1</td>
+        </tr>
+        <tr>
+            <td class="red">A2</td>
+            <td class="green">B2</td>
+            <td class="yellow">C2</td>
+        </tr>
+        <tr>
+            <td class="red">A3</td>
+            <td class="yellow">B3</td>
+            <td class="green">C3</td>
+        </tr>
+        <tr>
+            <td class="green">A4</td>
+            <td class="red">B4</td>
+            <td class="yellow">C4</td>
+        </tr>
+   </table>
+</body>
+</html>
