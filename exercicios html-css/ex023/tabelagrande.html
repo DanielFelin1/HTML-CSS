@@ -18,6 +18,7 @@
             width: 50vw;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
         td, thead, caption{
             color: black;
@@ -39,12 +40,17 @@
         thead{
             text-align: center;
         }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: ;
+        }
         .red{
-            background-color: rgba(255, 0, 0, 0.829);
+            background-color: rgb(255, 0, 0);
             color: black;
         }
         .blue{
-            background-color: rgba(39, 39, 245, 0.664);
+            background-color: rgb(39, 39, 245);
             color: black;
         }
         .cinza{
