@@ -59,8 +59,18 @@ section > a{
 section > a > img{
     width: 50px;
     border-radius: 50%;
-    margin-right: 15px;
-    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
 
     /*CONFIGURAÇÃO DAS IMAGENS QUE DIRECIONAM O LINK ATE A TELA DO IFRAME*/
+}
+
+section.redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.514);
+    transform: translate(-3px, -3px);
+    transition: transform .2s, border .2s;
+
+    /*CONFIGURAÇÃO DOS BOTÕES AO INTERAGIR COM O CURSOR*/
 }
