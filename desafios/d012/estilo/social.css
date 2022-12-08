@@ -16,6 +16,8 @@
 body > img{
     background-size: cover;
     width: 100vw;
+
+    /*CONFIGURAÇÃO DA LARGURA DA IMAGEM NA PAGINA*/
 }
 
 body > a{
