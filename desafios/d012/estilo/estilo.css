@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*CONFIGURAÇÕES DA MINHA PAGINA PRINCIPAL*/
+
 *{
     padding: 0%;
     margin: 0%;
@@ -20,6 +22,8 @@ body.fundo{
 main{
     height: 100vh;
     position: relative;
+
+    /*Configuração do container externo para centralizar o interno*/
 }
 
 section.celular{
@@ -31,6 +35,8 @@ section.celular{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
+    /*POSICIONAMENTO DA IMAGEM DE CELULAR*/
 }
 
 iframe#tela{
@@ -39,6 +45,8 @@ iframe#tela{
     left: 22px;
     width: 267px;
     height: 470px;
+
+    /*CONFIGURAÇÃO DO TAMANHO DO IFRAME*/
 }
 
 section > a{
@@ -52,4 +60,6 @@ section > a > img{
     border-radius: 50%;
     margin-right: 15px;
     padding: 5px;
+
+    /*CONFIGURAÇÃO DAS IMAGENS QUE DIRECIONAM O LINK ATE A TELA DO IFRAME*/
 }
