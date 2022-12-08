@@ -40,3 +40,16 @@ iframe#tela{
     width: 267px;
     height: 470px;
 }
+
+section > a{
+    display: block;
+    text-align: right;
+    color: white;
+}
+
+section > a > img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 5px;
+}
