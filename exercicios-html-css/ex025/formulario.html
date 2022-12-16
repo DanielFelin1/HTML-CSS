@@ -14,10 +14,18 @@
 <body>
     <h1>Meu primeiro formulario</h1>
     <!--Para desativar a sugestão de complemento automatico é só usar = autocomplete='off'-->
-    <form action="cadastro.js">
-        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
-        <p><input type="submit" value="confirmar"></p>
+    <form autocomplete='off' action="cadastro.js">
+        <p>
+            <label for="inome">Nome</label> <input type="text" name="nome" id="inome">
+        </p>
+
+        <p>
+            <label for="isobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+
+        <p>
+            <input type="submit" value="confirmar">
+        </p>
     </form>
 </body>
 </html>
